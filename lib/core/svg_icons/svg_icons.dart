@@ -41,3 +41,12 @@ const lastNameIcon = '''
 <path d="M1.5 17C1.5 13.6863 4.18629 11 7.5 11C10.8137 11 13.5 13.6863 13.5 17" stroke="#757575" stroke-width="1.2"/>
 </svg>
 ''';
+
+const coachBuddyIcon = '''
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="64" fill="#1976D2"/>
+  <rect x="128" y="160" width="256" height="256" rx="16" fill="#FFFFFF"/>
+  <path d="M192 256 L256 192 L320 256" stroke="#43A047" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M192 288 L192 224" stroke="#43A047" stroke-width="32" stroke-linecap="round"/>
+</svg>
+''';
