@@ -1,7 +1,9 @@
 import 'package:coach_buddy/core/svg_icons/svg_icons.dart';
+import 'package:coach_buddy/feature/signin/view/signin_screen.dart';
 import 'package:coach_buddy/feature/signup/view/components/user_type_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
 
 class SignUpForm extends StatelessWidget {
   const SignUpForm({super.key});
@@ -160,7 +162,10 @@ class SignUpForm extends StatelessWidget {
 
           const SizedBox(height: 32),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              context.go("/${SignInScreen.routeName}");
+
+            },
             style: ElevatedButton.styleFrom(
               elevation: 0,
               backgroundColor: Theme.of(context).primaryColor,

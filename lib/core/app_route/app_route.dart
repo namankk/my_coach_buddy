@@ -1,3 +1,4 @@
+import 'package:coach_buddy/feature/signin/view/signin_screen.dart';
 import 'package:coach_buddy/feature/signup/view/signup_screen.dart';
 import 'package:coach_buddy/feature/welcome/view/welcome_screen.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,12 @@ final GoRouter appRoute = GoRouter(
           builder: (BuildContext context, GoRouterState state) {
             return const SignUpScreen();
           },
+        ),
+        GoRoute(
+            path: SignInScreen.routeName,
+            builder: (BuildContext context, GoRouterState state) {
+              return const SignInScreen();
+            },
         ),
       ],
     ),
